@@ -27,7 +27,21 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
         id="video"
-      ></iframe>
+      ></iframe
+      ><br />
+      <h4>Sign up or Log in</h4>
+      <p>Create a new account or log in to an existing one.</p>
+      <form id="form" action=" https://www.freecodecamp.com/email-submit">
+        <label>Enter your email address </label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          placeholder="e.g you@example.com"
+        />
+        <input type="submit" id="submit" value="Continue" />
+      </form>
     </header>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
