@@ -5,22 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
     <header id="header">
-      <div>
-        <a class="nav-link" href="#home"
-          ><img
-            src="/images/company-logo.png"
-            alt="company-logo"
-            id="header-img"
-        /></a>
-      </div>
-      <nav id="nav-bar">
-        <a class="nav-link" href="#discover">Discover</a>
-        <a class="nav-link" href="#routes">Hiking Routes</a>
-        <a class="nav-link" href="#features">Features</a>
-      </nav>
+      <ul>
+        <li>
+          <a class="nav-link" href="#home"
+            ><img
+              src="/images/company-logo.png"
+              alt="company-logo"
+              id="header-img"
+          /></a>
+        </li>
+        <li><a class="nav-link" href="#discover">Discover</a></li>
+        <li><a class="nav-link" href="#routes">Hiking Routes</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+      </ul>
     </header>
     <div>
       <h1>Your route to adventure</h1>
@@ -80,24 +89,28 @@
           <img
             src="/images/feldberg.jpg"
             alt="feldberg"
-            id="route-img"
+            class="route-img"
           />Feldberg
         </div>
         <div>
           <img
             src="/images/ravennaschlucht.jpg"
             alt="ravennaschlucht"
-            id="route-img"
+            class="route-img"
           />Ravennaschlucht
         </div>
         <div>
-          <img src="/images/feldsee.jpg" alt="feldsee" id="route-img" />Feldsee
+          <img
+            src="/images/feldsee.jpg"
+            alt="feldsee"
+            class="route-img"
+          />Feldsee
         </div>
         <div>
           <img
             src="/images/deglerbad.jpg"
             alt="deglerbad"
-            id="route-img"
+            class="route-img"
           />Deglerbad
         </div>
       </div>
