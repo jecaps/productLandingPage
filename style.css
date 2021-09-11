@@ -8,6 +8,7 @@
   max-width: 80%;
   align-items: center;
   margin: auto;
+  padding: 10px;
 }
 #header-img {
   width: 75px;
@@ -16,8 +17,9 @@
 #nav-bar {
   position: fixed;
   top: 0;
-  width: 90%;
-  padding: 2px;
+  left: 0;
+  width: 100%;
+  padding: 0px 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,13 +37,23 @@ a {
 }
 
 #intro {
-  /* background-color: red; */
-  max-width: 800px;
-  margin: 33px auto;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 10px;
+  background-color: #a9ddd6;
+  border-radius: 5px;
 }
 #discover {
-  background-color: green;
+  display: block;
+  text-align: center;
 }
 #routes {
-  background-color: blue;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: justify;
+}
+.route-img {
+  width: 200px;
+  height: auto;
 }
