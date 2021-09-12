@@ -66,23 +66,25 @@ form {
 #routes,
 #features {
   max-width: 750px;
-  margin: 40px auto;
-  padding: 10px;
+  margin: 10px auto;
   text-align: justify;
 }
 .route-img {
   width: 200px;
   height: 150px;
+  border-radius: 2px;
 }
-#container-1,
-#container-2 {
-  display: flex;
-  margin: 0;
-  padding: 0;
+.text {
+  color: #fff;
 }
 .img-div {
-  margin: 10px;
+  width: 100%;
+  margin: 20px 0px 0px 0px;
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-column-gap: 25px;
+  justify-content: center;
 }
 #wrapper-1 .text,
 #wrapper-2 .text,
@@ -99,4 +101,8 @@ form {
 #wrapper-3:hover .text,
 #wrapper-4:hover .text {
   visibility: visible;
+}
+.route-img:hover {
+  -webkit-filter: blur(1.5px);
+  filter: blur(1.5px);
 }
