@@ -108,3 +108,9 @@ form {
   -webkit-filter: blur(1.5px);
   filter: blur(1.5px);
 }
+@media (max-width: 600px) {
+  .img-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
