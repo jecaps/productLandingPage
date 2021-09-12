@@ -75,14 +75,15 @@ form {
   border-radius: 2px;
 }
 .text {
-  color: #fff;
+  color: rgba(255, 251, 251, 0.905);
+  font-family: "Roboto", sans-serif;
 }
 .img-div {
   width: 100%;
   margin: 20px 0px 0px 0px;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2, auto);
   grid-column-gap: 25px;
   justify-content: center;
 }
