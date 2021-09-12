@@ -5,6 +5,7 @@
   font-family: "Varela Round", sans-serif;
 }
 #container {
+  position: relative;
   max-width: 80%;
   align-items: center;
   margin: auto;
@@ -62,7 +63,8 @@ form {
   display: block;
   text-align: center;
 }
-#routes {
+#routes,
+#features {
   max-width: 750px;
   margin: 40px auto;
   padding: 10px;
@@ -70,5 +72,31 @@ form {
 }
 .route-img {
   width: 200px;
-  height: auto;
+  height: 150px;
+}
+#container-1,
+#container-2 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.img-div {
+  margin: 10px;
+  text-align: center;
+}
+#wrapper-1 .text,
+#wrapper-2 .text,
+#wrapper-3 .text,
+#wrapper-4 .text {
+  position: relative;
+  bottom: 30px;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper-1:hover .text,
+#wrapper-2:hover .text,
+#wrapper-3:hover .text,
+#wrapper-4:hover .text {
+  visibility: visible;
 }
