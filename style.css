@@ -63,6 +63,7 @@ form {
   display: block;
   text-align: center;
 }
+
 #routes,
 #features {
   max-width: 750px;
@@ -70,8 +71,8 @@ form {
   text-align: justify;
 }
 .route-img {
-  width: 200px;
-  height: 150px;
+  width: 288px;
+  height: 216px;
   border-radius: 2px;
 }
 .text {
@@ -84,7 +85,7 @@ form {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-column-gap: 25px;
+  grid-column-gap: 24px;
   justify-content: center;
 }
 #wrapper-1 .text,
