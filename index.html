@@ -1,160 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- CSS Styles -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <!-- More Styles -->
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-  <body>
-    <div id="container">
-      <header id="header">
-        <nav id="nav-bar">
-            <img src="/images/company-logo.png" alt="company-logo" id="header-img"
-                />
-            <ul>
-              <li class="active"><a class="nav-link" href="#discover">Discover</a></li>
-              <li><a class="nav-link" href="#routes">Hiking Routes</a></li>
-              <li><a class="nav-link" href="#features">Features</a></li>
-            </ul>
-        </nav>
-      </header>
-      <main>
-        <div id="intro">
-          <h1>Your route to adventure</h1>
-          <br>
-          <p>
-            From the deepest dirt track to the highest hiking trail in Black Forest,
-            hiKingKong gets you there and back again—and everywhere you want in
-            between.
-          </p>
-          <br>
-          <div class="form-center">
-            <form id="form" action=" https://www.freecodecamp.com/email-submit">
-              <input type="submit" id="submit" value="Sign up or Log in" />
-              <br>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                placeholder="e.g you@example.com"
-              />
-            </form>
-          </div>
-          <br>
-          <p>
-            Sign in to your hiKingKong account or create a new one—and get the
-            feature-packed hiKingKong experience for literally nothing.
-          </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <!-- More Styles -->
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+<body>
+  <div id="container">
+    <header id="header">
+      <nav id="nav-bar">
+        <img src="/images/company-logo.png" alt="company-logo" id="header-img" />
+        <ul>
+          <li class="active"><a class="nav-link" href="#discover">Discover</a></li>
+          <li><a class="nav-link" href="#routes">Hiking Routes</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="intro">
+        <h1>Your route to adventure</h1>
+        <br>
+        <p>
+          From the deepest dirt track to the highest hiking trail in Black Forest,
+          hiKingKong gets you there and back again—and everywhere you want in
+          between.
+        </p>
+        <br>
+        <div class="form-center">
+          <form id="form" action=" https://www.freecodecamp.com/email-submit">
+            <input type="submit" id="submit" value="Sign up or Log in" />
+            <br>
+            <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              placeholder="e.g you@example.com" />
+          </form>
         </div>
-        <section id="discover">
-          <iframe
-            src="https://www.youtube.com/embed/bnkbSpMb6nY"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            id="video"
-          ></iframe>
-        </section>
-        <br />
-        <section id="routes">
-          <div>
-            <p class="desc-div">
-              Dripping with legends of beasts and witches, the dense, dark, forested
-              hills of the Black Forest are endlessly beguiling. Walks in the Black
-              Forest place you in the magical heart of this picturesque, fairy-tale
-              region, where trails criss-cross a sublime expanse of high hills,
-              atmospheric lakes and gorgeous woodland. Traditional medieval towns
-              and villages act as charming bases for your adventures. Wake up to the
-              sound of the cuckoo clock in an archetypal half-timbered guesthouse
-              and stride out onto ancient paths under the brooding, evergreen
-              canopy. Magnificent all year round, in the summer you’ll be glad of
-              the shade, whilst in winter you’ll be lured onwards by the bewitching
-              white wonderland. Discover deep, overgrown gorges; majestic, tumbling
-              waterfalls and astonishing views of the Rhine Valley and the distant
-              Alps. Hikes in the Black Forest take you to truly enchanting,
-              unforgettable places. It’s a hikers’ fantasy land and you’d be cuckoo
-              to miss it.
-            </p>
-            <div class="img-div">
-                <div id="wrapper-1">
-                  <img
-                    src="/images/feldberg.jpg"
-                    alt="feldberg"
-                    class="route-img"
-                  /><p class="text">Feldberg</p>
-                </div>
-                <div id="wrapper-2">
-                  <img
-                    src="/images/ravennaschlucht.jpg"
-                    alt="ravennaschlucht"
-                    class="route-img"
-                  /><p class="text">Ravennaschlucht</p>
-                </div>
-                <div id="wrapper-3">
-                  <img
-                    src="/images/feldsee.jpg"
-                    alt="feldsee"
-                    class="route-img"
-                  /><p class="text">Feldsee</p>
-                </div>
-                <div id="wrapper-4">
-                  <img
-                    src="/images/deglerbad.jpg"
-                    alt="deglerbad"
-                    class="route-img"
-                  /><p class="text">Deglerbad</p>
-                </div>
+        <br>
+        <p>
+          Sign in to your hiKingKong account or create a new one—and get the
+          feature-packed hiKingKong experience for literally nothing.
+        </p>
+      </div>
+      <section id="discover">
+        <iframe src="https://www.youtube.com/embed/bnkbSpMb6nY" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen id="video"></iframe>
+      </section>
+      <br />
+      <section id="routes">
+        <div>
+          <p class="desc-div">
+            Dripping with legends of beasts and witches, the dense, dark, forested
+            hills of the Black Forest are endlessly beguiling. Walks in the Black
+            Forest place you in the magical heart of this picturesque, fairy-tale
+            region, where trails criss-cross a sublime expanse of high hills,
+            atmospheric lakes and gorgeous woodland. Traditional medieval towns
+            and villages act as charming bases for your adventures. Wake up to the
+            sound of the cuckoo clock in an archetypal half-timbered guesthouse
+            and stride out onto ancient paths under the brooding, evergreen
+            canopy. Magnificent all year round, in the summer you’ll be glad of
+            the shade, whilst in winter you’ll be lured onwards by the bewitching
+            white wonderland. Discover deep, overgrown gorges; majestic, tumbling
+            waterfalls and astonishing views of the Rhine Valley and the distant
+            Alps. Hikes in the Black Forest take you to truly enchanting,
+            unforgettable places. It’s a hikers’ fantasy land and you’d be cuckoo
+            to miss it.
+          </p>
+          <div class="img-div">
+            <div id="wrapper-1">
+              <img src="/images/feldberg.jpg" alt="feldberg" class="route-img" />
+              <p class="text">Feldberg</p>
+            </div>
+            <div id="wrapper-2">
+              <img src="/images/ravennaschlucht.jpg" alt="ravennaschlucht" class="route-img" />
+              <p class="text">Ravennaschlucht</p>
+            </div>
+            <div id="wrapper-3">
+              <img src="/images/feldsee.jpg" alt="feldsee" class="route-img" />
+              <p class="text">Feldsee</p>
+            </div>
+            <div id="wrapper-4">
+              <img src="/images/deglerbad.jpg" alt="deglerbad" class="route-img" />
+              <p class="text">Deglerbad</p>
             </div>
           </div>
-        </section>
-        <br />
-        <br />
-        <section id="features">
+        </div>
+      </section>
+      <br />
+      <br />
+      <section id="features">
+        <p>
+          From ready-built routes that reveal all of nature’s best-kept secrets,
+          to superior route planning and navigation tech that lets you decide what
+          you want to discover, hiKingKong makes it easy to explore more of the
+          great outdoors—wherever and however you want.
+        </p>
+        <br>
+        <div>
+          <h3>Ready-Made Inspiration</h3>
+          <p>Browse personalized adventures tailored to your favorite sports</p>
+        </div>
+        <br>
+        <div>
+          <h3>A Better Planning Tool</h3>
           <p>
-            From ready-built routes that reveal all of nature’s best-kept secrets,
-            to superior route planning and navigation tech that lets you decide what
-            you want to discover, hiKingKong makes it easy to explore more of the
-            great outdoors—wherever and however you want.
+            Build your perfect outdoor experience using the world's most best
+            outdoor tech
           </p>
           <br>
-          <div>
-            <h3>Ready-Made Inspiration</h3>
-            <p>Browse personalized adventures tailored to your favorite sports</p>
-          </div>
-          <br>
-          <div>
-            <h3>A Better Planning Tool</h3>
-            <p>
-              Build your perfect outdoor experience using the world's most best
-              outdoor tech
-            </p>
-            <br>
-          </div>
-          <div>
-            <h3>More Intuitive Navigation</h3>
-            <p>
-              Turn-by-turn navigation and offline maps keep your adventure on track
-            </p>
-          </div>
-          <br>
-          <div>
-            <h3>A Log of Every Adventure</h3>
-            <p>Save every adventure and share your experiences with your friends</p>
-          </div>
-        </section>
-      </main>
-    </div>
+        </div>
+        <div>
+          <h3>More Intuitive Navigation</h3>
+          <p>
+            Turn-by-turn navigation and offline maps keep your adventure on track
+          </p>
+        </div>
+        <br>
+        <div>
+          <h3>A Log of Every Adventure</h3>
+          <p>Save every adventure and share your experiences with your friends</p>
+        </div>
+        <br>
+        <br>
+        <div>*Text and images taken from <a href="komoot.com">Komoot</a></div>
+      </section>
+    </main>
+  </div>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
 </html>
